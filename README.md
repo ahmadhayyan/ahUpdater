@@ -1,7 +1,7 @@
 # ahUpdater - Coming Soon
 ahUpdater is a software updater to make your application easier to update and commercial ready. It's easy to set up, lightweight, customizable and user friendly.
 
-### Table of Contents
+## Table of Contents
 1. [How to Install](#how-to-install)
 2. [How to Use](#how-to-use)
 
