@@ -39,7 +39,6 @@ mainApplication.exe
 - `forceUpdate` : If set to false, after ahUpdater checking for updates the user gets to choose between update or cancel. If set to true, the user cannot choose cancel and the system will automatically update.
 - `package` : The package can be as many as you like and you can also name it whatever you want to.
 
-<br>
 ### Implementation Example
 ```bash
 [
@@ -61,7 +60,6 @@ mainApplication.exe
     }
 ]
 ```
-<br>
 
 ## How to use
 - Call the ahUpdtr.exe with 2 parameters/arguments. The first arguments is your app current version and the second arguments is your json link.
