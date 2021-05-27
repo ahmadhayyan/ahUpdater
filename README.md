@@ -1,5 +1,5 @@
 # ahUpdater
-# Coming Soon
+### Coming Soon
 ahUpdater is a software updater to make your application easier to update and commercial ready. It's easy to set up, lightweight, customizable and user friendly.
 
 ## How to install
@@ -10,7 +10,7 @@ ahUpdater is a software updater to make your application easier to update and co
 
 <json_format>
 
-# information
+### information
 - app : the application that will open when the update is finished (parameters/arguments can be used). (E.g. "mainApplication.exe arg1 arg2 argN" or just "mainApplication.exe")
 - forceUpdate : if set to false, after ahUpdater checking for updates the user get to choose between update or cancel. If set to true, the user cannot choose cancel and the system will automatically update.
 
