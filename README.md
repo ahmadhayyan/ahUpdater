@@ -27,6 +27,7 @@ ahUpdater is a software updater to make your application easier to update and co
     }
 ]
 ```
+Note that the `package` is can be as many as you like.
 ### information
 - `app` : The application that will open when the update is finished (parameters/arguments can be used).
 Example:
