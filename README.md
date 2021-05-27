@@ -5,13 +5,13 @@ ahUpdater is a software updater to make your application easier to update and co
 ## How to install
 - Download ahUpdater [here](https://google.com)
 - Unzip and put the files on your main application directory
-- Change the update.ini to change the style and the text inside ahUpdater
+- Change the `update.ini` to change the style and the text inside ahUpdater
 - Create json file on your server/website with this format :
 ```bash
 <json_format>
 ```
 ### information
-- <b>app</b> : The application that will open when the update is finished (parameters/arguments can be used).
+- `app` : The application that will open when the update is finished (parameters/arguments can be used).
 Example:
 ```bash
 mainApplication.exe arg1 arg2 argN
@@ -20,7 +20,7 @@ Or just
 ```bash
 mainApplication.exe
 ```
-- <b>forceUpdate</b> : If set to false, after ahUpdater checking for updates the user get to choose between update or cancel. If set to true, the user cannot choose cancel and the system will automatically update.
+- `forceUpdate` : If set to false, after ahUpdater checking for updates the user get to choose between update or cancel. If set to true, the user cannot choose cancel and the system will automatically update.
 
 ## How to use
 - Call the ahUpdtr.exe with 2 parameters/arguments. The first arguments is your app current version and the second arguments is your json link.
