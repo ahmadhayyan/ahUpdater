@@ -36,7 +36,7 @@ ahUpdater is a software updater to make your application easier to update and co
 - `package` : The package can be as many as you like and you can also name it whatever you want to.
 
 ### Implementation Example
-```bash
+```json
 [
     {
         "app": "mainApplication.exe",
