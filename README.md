@@ -8,7 +8,24 @@ ahUpdater is a software updater to make your application easier to update and co
 - Change the `update.ini` to change the style and the text inside ahUpdater
 - Create json file on your server/website with this format :
 ```bash
-<json_format>
+[
+    {
+        "app": "",
+        "forceUpdate": false,
+        "package1": {
+            "version": "",
+            "url": ""
+        },
+        "package2": {
+            "version": "",
+            "url": ""
+        },
+        "packageN": {
+            "version": "",
+            "url": ""
+        }
+    }
+]
 ```
 ### information
 - `app` : The application that will open when the update is finished (parameters/arguments can be used).
