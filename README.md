@@ -54,4 +54,4 @@ ahUpdater is a software updater to make your application easier to update and co
 ```
 
 ## How to use
-- Call the ahUpdtr.exe with 2 parameters/arguments. The first arguments is your app current version and the second arguments is your json link. Example: ```ahUpdtr.exe 1.0 http://yourwebsite.com/version.json```
+- Call the ahUpdtr.exe with 2 parameters/arguments. The first arguments is your app current version and the second arguments is your json link. Example: ```bash ahUpdtr.exe 1.0 http://yourwebsite.com/version.json```
