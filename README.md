@@ -67,7 +67,7 @@ ahUpdater is a software updater to make your application easier to update and co
 - **version** : If you want to update your specific package, make sure the version is higher than your current application version. And vice versa if you don't want some package to be updated, make sure the version is lower or same as your current application version.
 - **url** : Is the url to download your new package.
 
-### Implementation Example
+### Examples of Implementation
 ```json
 [
     {
