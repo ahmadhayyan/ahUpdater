@@ -97,5 +97,5 @@ ahUpdtr.exe <your-app-current-version> <your-json-url>
 ::ahUpdtr.exe 1.0 http://yourwebsite.com/version.json
 ```
 
-## Credits and License
+## Copyright and License
 Application and documentation copyright 2021 [ahmadhayyan](https://ahmadhayyan.github.io). ahUpdater released under the [MIT License](LICENSE).
