@@ -10,15 +10,26 @@ ahUpdater is a software updater to make your application easier to update and co
   </span>
 </p>
 
-### Features:
-- Check for updates, download, install or unzip
-- Force update option available
-- Custom style, custom text, custom icon
-- Set package the way you like
-
-### Benefits:
-- Make your application more commercial
-- Easier to update your application on the client
+<table border="0" align="center">
+  <tr>
+    <td><b style="font-size:30px">Features</b></td>
+    <td><b style="font-size:30px">Benefits</b></td>
+  </tr>
+  <tr>
+    <td>&bull; Check for updates, download, install or unzip</td>
+    <td>&bull; Make your application more commercial</td>
+  </tr>
+  <tr>
+    <td>&bull; Force update option available</td>
+    <td>&bull; Easier to update your application on the client</td>
+  </tr>
+  <tr>
+    <td>&bull; Custom style, custom text, custom icon</td>
+ </tr>
+ <tr>
+    <td>&bull; Set package the way you like</td>
+ </tr>
+</table>
 
 ## Table of Contents
 1. [How to Install](#how-to-install)
