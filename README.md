@@ -31,8 +31,9 @@ ahUpdater is a software updater to make your application easier to update and co
 </table>
 
 ## Table of Contents
-1. [How to Install](#how-to-install)
-2. [How to Use](#how-to-use)
+- [How to Install](#how-to-install)
+- [How to Use](#how-to-use)
+- [Copyright and License](#copyright-and-license)
 
 ## How to Install
 - Download ahUpdater [here](https://google.com)
@@ -95,6 +96,18 @@ ahUpdtr.exe <your-app-current-version> <your-json-url>
 
 ::Example
 ::ahUpdtr.exe 1.0 http://yourwebsite.com/version.json
+```
+
+### Examples of Implementation Using Qt C++
+```c++
+#include <QProcess>
+
+QProcess *process = new QProcess();
+QString program = QCoreApplication::applicationDirPath() + "/ahUpdtr.exe";
+QStringList arguments = { your_app_version, your_json_url };
+process->start(program, arguments);
+
+close();
 ```
 
 ## Copyright and License
