@@ -1,11 +1,12 @@
 # ahUpdater - Coming Soon
 ahUpdater is a software updater to make your application easier to update and commercial ready. It's easy to set up, lightweight, customizable and user friendly.
 
-<p align="center">
-  <img src="img/ahUpdater.gif" width="568" height="606" alt="ahUpdater">
-  <br/>
-  <img src="img/updateAvailable.png" width="283" height="302" alt="ahUpdater">
-  <img src="img/downloadPackage.png" width="283" height="302" alt="ahUpdater">
+<p align="center" style="display: flex;">
+  <img src="img/ahUpdater.gif" width="568" height="609" alt="ahUpdater">
+  <span style="max-width: 300px;">
+    <img src="img/updateAvailable.png" width="283" height="302" alt="ahUpdater">
+    <img src="img/downloadPackage.png" width="283" height="302" alt="ahUpdater">
+  </span>
 </p>
 
 ## Table of Contents
