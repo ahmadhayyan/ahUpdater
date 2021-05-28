@@ -31,9 +31,9 @@ ahUpdater is a software updater to make your application easier to update and co
 ]
 ```
 #### A couple things about the json format :
-- `app` : The application that will open when the update is finished (parameters/arguments can be used). Example: `mainApplication.exe arg1 arg2 argN` or just `mainApplication.exe`
-- `forceUpdate` : If set to false, after ahUpdater checking for updates the user gets to choose between update or cancel. If set to true, the user cannot choose cancel and the system will automatically update.
-- `package` : The package can be as many as you like and you can also name it whatever you want to.
+- **app** : The application that will open when the update is finished (parameters/arguments can be used). Example: `mainApplication.exe arg1 arg2 argN` or just `mainApplication.exe`
+- **forceUpdate** : If set to false, after ahUpdater checking for updates the user gets to choose between update or cancel. If set to true, the user cannot choose cancel and the system will automatically update.
+- **package** : The package can be as many as you like and you can also name it whatever you want to.
 
 ### Implementation Example
 ```json
@@ -58,7 +58,7 @@ ahUpdater is a software updater to make your application easier to update and co
 ```
 
 ## How to use
-- Call the ahUpdtr.exe with 2 parameters/arguments. The first arguments is your app current version and the second arguments is your json link.
+- Call the ahUpdtr.exe with 2 parameters/arguments. The first arguments is your app current version and the second arguments is your json link. Call the ahUpdtr.exe without parent it to your main application, because you need to close your application after calling ahUpdtr.exe in order to update.
 ```batch
 ahUpdtr.exe <your-app-current-version> <your-json-data-on-website>
 
