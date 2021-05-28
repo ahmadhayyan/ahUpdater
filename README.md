@@ -92,7 +92,7 @@ ahUpdater is a software updater to make your application easier to update and co
 ## How to Use
 - Call the ahUpdtr.exe with 2 parameters/arguments. The first arguments is your app current version and the second arguments is your json link. Call the ahUpdtr.exe without parent it to your main application, because you need to close your application after calling ahUpdtr.exe in order to update.
 ```batch
-ahUpdtr.exe <your-app-current-version> <your-json-data-on-website>
+ahUpdtr.exe <your-app-current-version> <your-json-url>
 
 ::Example
 ::ahUpdtr.exe 1.0 http://yourwebsite.com/version.json
