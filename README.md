@@ -40,7 +40,7 @@ ahUpdater is a software updater to make your application easier to update and co
 ```
 #### A couple things about the json format :
 - **app** : The application that will open when the update is finished (parameters/arguments can be used). Example: `mainApplication.exe arg1 arg2 argN` or just `mainApplication.exe`
-- **forceUpdate** : If set to `false`, after ahUpdater checking for updates the user gets to choose between update or cancel. If set to `true`, the user cannot choose cancel and the system will automatically update.
+- **forceUpdate** : If set to false, after ahUpdater checking for updates the user gets to choose between update or cancel. If set to true, the user cannot choose cancel and the system will automatically update.
 - **package** : The package can be as many as you like and you can also name it whatever you want to.
 - **version** : If you want to update your specific package, make sure the version is higher than your current application version. And vice versa if you don't want some package to be updated, make sure the version is lower or same as your current application version.
 - **url** : Is the url to download your new package.
