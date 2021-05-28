@@ -10,11 +10,21 @@ ahUpdater is a software updater to make your application easier to update and co
   </span>
 </p>
 
+### Features:
+- Check for updates, download, install or unzip
+- Force update option available
+- Custom style, custom text, custom icon
+- Set package the way you like
+
+### Benefits:
+- Make your application more commercial
+- Easier to update your application on the client
+
 ## Table of Contents
 1. [How to Install](#how-to-install)
 2. [How to Use](#how-to-use)
 
-## How to install
+## How to Install
 - Download ahUpdater [here](https://google.com)
 - Unzip and put the files on your main application directory
 - Change the `update.ini` to change the style and the text inside ahUpdater
@@ -68,7 +78,7 @@ ahUpdater is a software updater to make your application easier to update and co
 ]
 ```
 
-## How to use
+## How to Use
 - Call the ahUpdtr.exe with 2 parameters/arguments. The first arguments is your app current version and the second arguments is your json link. Call the ahUpdtr.exe without parent it to your main application, because you need to close your application after calling ahUpdtr.exe in order to update.
 ```batch
 ahUpdtr.exe <your-app-current-version> <your-json-data-on-website>
