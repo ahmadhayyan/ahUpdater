@@ -23,7 +23,7 @@ ahUpdater is a software updater to make your application easier to update and co
     </td>
     <td>
       &bull; Make your application more commercial<br/>
-      &bull; Easier to update your application on the client
+      &bull; Easier to update your application on the client<br/><br/><br/>
     </td>
   </tr>
 </table>
