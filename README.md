@@ -37,6 +37,7 @@ ahUpdater is a software updater to make your application easier to update and co
 - Download ahUpdater [here](https://google.com)
 - Unzip and put the files on your main application directory
 - Change the `update.ini` to change the style and the text inside ahUpdater
+- To set the logo you need to put an image file in the main directory named `updater_logo` (png/jpg is the best format)
 - Create a `json` file on your server/website with this format :
 ```json
 [
