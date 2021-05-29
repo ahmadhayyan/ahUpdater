@@ -1,4 +1,8 @@
-# ahUpdater - Coming Soon
+# ahUpdater
+[![ahUpdater version](https://img.shields.io/static/v1?label=Version&message=1.0&color=4dc820)](../../)
+[![ahNotification size](https://img.shields.io/static/v1?label=Size&message=9.42%20MB&color=4dc820)](https://github.com/ahmadhayyan/ahUpdater/releases/download/v1.0/ahUpdater.zip)
+[![ahUpdater license](https://img.shields.io/npm/l/tabler.svg?label=License&message=MIT&color=4dc820)](LICENSE)
+
 ahUpdater is a software updater to make your application easier to update and commercial ready. It's easy to set up, lightweight, customizable and user friendly.
 
 <table border="0" align="center">
@@ -34,7 +38,7 @@ ahUpdater is a software updater to make your application easier to update and co
 - [Copyright and License](#copyright-and-license)
 
 ## How to Install
-- Download ahUpdater [here](https://google.com)
+- Download ahUpdater [here](https://github.com/ahmadhayyan/ahUpdater/releases/download/v1.0/ahUpdater.zip)
 - Unzip and put the files on your main application directory
 - Change the `update.ini` to change the style and the text inside ahUpdater
 - To set the logo you need to put an image file in the main directory named `updater_logo` (png/jpg is the best format)
