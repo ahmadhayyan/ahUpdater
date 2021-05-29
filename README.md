@@ -3,9 +3,9 @@ ahUpdater is a software updater to make your application easier to update and co
 
 <table border="0" align="center">
   <tr>
-    <td><img src="img/ahUpdater.gif" width="569" height="609" alt="ahUpdater"></td>
-    <td><img src="img/updateAvailable.png" width="283" height="302" alt="ahUpdater"><br/>
-    <img src="img/downloadPackage.png" width="283" height="302" alt="ahUpdater"></td>
+    <td><img src="img/ahUpdater.gif" alt="ahUpdater"></td>
+    <td><img src="img/updateAvailable.png" alt="ahUpdater"><br/>
+    <img src="img/downloadPackage.png" alt="ahUpdater"></td>
   </tr>
 </table>
 
@@ -109,4 +109,4 @@ close();
 ```
 
 ## Copyright and License
-Application and documentation copyright 2021 [ahmadhayyan](https://ahmadhayyan.github.io). ahUpdater released under the [MIT License](LICENSE).
+Application and documentation copyright 2021 [ahmadhayyan](https://ahmadhayyan.github.io). ahUpdater is released under the [MIT License](LICENSE).
