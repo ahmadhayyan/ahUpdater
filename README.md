@@ -38,10 +38,10 @@ ahUpdater is a software updater to make your application easier to update and co
 - [Copyright and License](#copyright-and-license)
 
 ## How to Install
-- Download ahUpdater [here](https://github.com/ahmadhayyan/ahUpdater/releases/download/v1.0/ahUpdater.zip)
+- Download ahUpdater [here](https://github.com/ahmadhayyan/ahUpdater/releases/download/v1.1/ahUpdater.zip)
 - Unzip and put the files on your main application directory
 - Change the `update.ini` to change the style and the text inside ahUpdater
-- To set the logo you need to put an image file in the main directory named `updater_logo` (png/jpg is the best format)
+- To set the logo you need to put an image file in the main directory named `updater_logo.png`
 - Create a `json` file on your server/website with this format :
 ```json
 [
@@ -93,12 +93,12 @@ ahUpdater is a software updater to make your application easier to update and co
 ```
 
 ## How to Use
-- Call the ahUpdtr.exe with 2 parameters/arguments. The first arguments is your app current version and the second arguments is your json link. Call the ahUpdtr.exe without parent it to your main application, because you need to close your application after calling ahUpdtr.exe in order to update.
+- Call the ahUpdtr.exe with 2 parameters/arguments. The first argument is your app current version, second argument is your json file link and the third argument is used to open main application when the updater can't read/access the json file. Call the ahUpdtr.exe without parent it to your main application, because you need to close your application after calling ahUpdtr.exe in order to update.
 ```batch
-ahUpdtr.exe <your-app-current-version> <your-json-url>
+ahUpdtr.exe <your-app-current-version> <your-json-url> <your-main-app>
 
 ::Example
-::ahUpdtr.exe 1.0 http://yourwebsite.com/version.json
+::ahUpdtr.exe 1.0 http://yourwebsite.com/version.json "mainApplication.exe -noupdate"
 ```
 
 ### Examples of Implementation Using Qt C++
@@ -107,7 +107,7 @@ ahUpdtr.exe <your-app-current-version> <your-json-url>
 
 QProcess *process = new QProcess();
 QString program = QCoreApplication::applicationDirPath() + "/ahUpdtr.exe";
-QStringList arguments = { your_app_version, your_json_url };
+QStringList arguments = { your_app_version, your_json_url, your_main_app };
 process->start(program, arguments);
 
 close();
