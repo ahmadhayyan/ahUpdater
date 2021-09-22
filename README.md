@@ -1,5 +1,5 @@
 # ahUpdater
-[![ahUpdater version](https://img.shields.io/static/v1?label=Version&message=1.0&color=4dc820)](../../)
+[![ahUpdater version](https://img.shields.io/static/v1?label=Version&message=1.1&color=4dc820)](../../)
 [![ahNotification size](https://img.shields.io/static/v1?label=Size&message=9.42%20MB&color=4dc820)](https://github.com/ahmadhayyan/ahUpdater/releases/download/v1.0/ahUpdater.zip)
 [![ahUpdater license](https://img.shields.io/npm/l/tabler.svg?label=License&message=MIT&color=4dc820)](LICENSE)
 
